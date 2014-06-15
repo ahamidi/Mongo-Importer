@@ -46,14 +46,17 @@ Usage of mongo-importer:
 ```
 
 ## Todo
-1. Improve efficiency of transfer.  
-Right now it transfers docs one at a time. Ideally it should pull groups of docs (say in groups of 1000) and bulk uploads. Doesn't seem possible with the Go SDK.
-1. Add testing.
-1. Improve error feedback.
-1. Support resuming migrations.
-1. Migrate indexes (need to investigate).
-1. Allow multiple collections to be specified (one, several or all).
-1. Improve progress feedback.
+
+- [ ] Testing
+- [ ] Improve efficiency of transfer*
+- [ ] Add testing
+- [ ] Improve error feedback
+- [ ] Support resuming migrations
+- [ ] Migrate indexes (need to investigate)
+- [ ] Allow multiple collections to be specified (one, several or all)
+- [ ] Improve progress feedback
+
+_*Right now it transfers docs one at a time. Ideally it should pull groups of docs (say in groups of 1000) and bulk uploads. Doesn't seem possible with the Go SDK._
 
 ## Building
 
