@@ -1,6 +1,6 @@
 // MongoDB to Couchbase Importer
 //
-// Author: Ali Hamidi <ahamidi@me.com>
+// Author: Ali Hamidi <@ahamidi>
 
 package main
 
